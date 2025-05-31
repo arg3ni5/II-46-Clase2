@@ -23,6 +23,10 @@
         _email = email
     End Sub
 
+    Public Function NombreCompleto() As String
+        Return $"{_nombre} {_apellido}"
+    End Function
+
     ' Propiedades para acceder a los campos privados
     Public Property Nombre As String
         Get
