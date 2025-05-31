@@ -4,38 +4,41 @@
 
     <main>
         <section class="row" aria-labelledby="aspnetTitle">
-            <h1 id="aspnetTitle">ASP.NET</h1>
-            <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS, and JavaScript.</p>
-            <p><a href="http://www.asp.net" class="btn btn-primary btn-md">Learn more &raquo;</a></p>
+            <h1 id="aspnetTitle">
+                <asp:Label ID="Titulo" runat="server" Text="Label"></asp:Label>
+            </h1>
+            <p class="lead">
+                <asp:Label ID="LbPersona" runat="server" Text="Label"></asp:Label>
+            </p>
+            <p><a href="https://github.com/arg3ni5" class="btn btn-primary btn-md">Github</a></p>
         </section>
 
         <div class="row">
             <section class="col-md-4" aria-labelledby="gettingStartedTitle">
-                <h2 id="gettingStartedTitle">Getting started</h2>
+                <h2 id="gettingStartedTitle">Programación Orientada a Objetos (POO)</h2>
                 <p>
-                    ASP.NET Web Forms lets you build dynamic websites using a familiar drag-and-drop, event-driven model.
-                A design surface and hundreds of controls and components let you rapidly build sophisticated, powerful UI-driven sites with data access.
+                    La Programación Orientada a Objetos (POO) es un paradigma de programación que utiliza "objetos" para diseñar aplicaciones y sistemas informáticos.
                 </p>
                 <p>
-                    <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301948">Learn more &raquo;</a>
+                    <a class="btn btn-default" href="https://arg3ni5.github.io/poo-interactivo/">Ir a enlace &raquo;</a>
                 </p>
             </section>
             <section class="col-md-4" aria-labelledby="librariesTitle">
-                <h2 id="librariesTitle">Get more libraries</h2>
+                <h2 id="librariesTitle">Git: Una Explicación Visual e Interactiva</h2>
                 <p>
-                    NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.
+                    Imagina que tienes un proyecto personal. Git te permite llevar un registro de cada cambio que haces, como si tomaras una 'instantánea' en el tiempo.
                 </p>
                 <p>
-                    <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301949">Learn more &raquo;</a>
+                    <a class="btn btn-default" href="https://arg3ni5.github.io/git-interactivo/">Ir a enlace &raquo;</a>
                 </p>
             </section>
             <section class="col-md-4" aria-labelledby="hostingTitle">
-                <h2 id="hostingTitle">Web Hosting</h2>
+                <h2 id="hostingTitle">Primer Clase con ASP.NET</h2>
                 <p>
-                    You can easily find a web hosting company that offers the right mix of features and price for your applications.
+                    Este es el repositio del proyecto de ASP.NET, trabajado en clase.
                 </p>
                 <p>
-                    <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301950">Learn more &raquo;</a>
+                    <a class="btn btn-default" href="https://github.com/arg3ni5/II-46-Clase2">Ver repositorio &raquo;</a>
                 </p>
             </section>
         </div>
