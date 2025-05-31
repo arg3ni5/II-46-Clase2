@@ -6,6 +6,24 @@
     Private _telefono As String
     Private _email As String
 
+    ' Constructor basico
+    Public Sub New(nombre As String, apellido As String, edad As Integer)
+        _nombre = nombre
+        _apellido = apellido
+        _edad = edad
+    End Sub
+
+    ' Constructor completo
+    Public Sub New(nombre As String, apellido As String, edad As Integer, direccion As String, telefono As String, email As String)
+        _nombre = nombre
+        _apellido = apellido
+        _edad = edad
+        _direccion = direccion
+        _telefono = telefono
+        _email = email
+    End Sub
+
+    ' Propiedades para acceder a los campos privados
     Public Property Nombre As String
         Get
             Return _nombre
@@ -59,4 +77,5 @@
             _email = value
         End Set
     End Property
+
 End Class
