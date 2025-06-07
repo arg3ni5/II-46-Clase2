@@ -9,6 +9,8 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CapaLogica", "CapaLogica\Ca
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CapaDatos", "CapaDatos\CapaDatos.vbproj", "{700EBDC9-3012-411F-8854-0A2D2779D8C7}"
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "ClaseEjemploMVC", "ClaseEjemploMVC\ClaseEjemploMVC.vbproj", "{00FA8CBD-3BE5-4771-9FE9-D0B4847129EF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{700EBDC9-3012-411F-8854-0A2D2779D8C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{700EBDC9-3012-411F-8854-0A2D2779D8C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{700EBDC9-3012-411F-8854-0A2D2779D8C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00FA8CBD-3BE5-4771-9FE9-D0B4847129EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00FA8CBD-3BE5-4771-9FE9-D0B4847129EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00FA8CBD-3BE5-4771-9FE9-D0B4847129EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00FA8CBD-3BE5-4771-9FE9-D0B4847129EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
