@@ -1,33 +1,48 @@
 ﻿@Code
     ViewData("Title") = "Home Page"
+    ViewData("Titulo") = "Bienvenido a la clase de ASP.NET"
+
+    Dim persona As New Persona With {
+        .Nombre = "Fabian",
+        .Apellido = "Chinchilla"
+    }
+
 End Code
 
 <main>
     <section class="row" aria-labelledby="aspnetTitle">
-        <h1 id="title">ASP.NET</h1>
-        <p class="lead">ASP.NET is a free web framework for building great Web sites and Web applications using HTML, CSS and JavaScript.</p>
-        <p><a href="https://asp.net" class="btn btn-primary btn-md">Learn more &raquo;</a></p>
+        <h1 id="title">@ViewData("Titulo")</h1>
+        <p class="lead">@persona.NombreCompleto</p>
+        <p><a href="https://github.com/arg3ni5" class="btn btn-primary btn-md">Github</a></p>
     </section>
 
     <div class="row">
         <section class="col-md-4" aria-labelledby="gettingStartedTitle">
-            <h2 id="gettingStartedTitle">Getting started</h2>
+            <h2 id="gettingStartedTitle">Programación Orientada a Objetos (POO)</h2>
             <p>
-                ASP.NET MVC gives you a powerful, patterns-based way to build dynamic websites that
-                enables a clean separation of concerns and gives you full control over markup
-                for enjoyable, agile development.
+                La Programación Orientada a Objetos (POO) es un paradigma de programación que utiliza "objetos" para diseñar aplicaciones y sistemas informáticos.
             </p>
-            <p><a class="btn btn-outline-dark" href="https://go.microsoft.com/fwlink/?LinkId=301865">Learn more &raquo;</a></p>
+            <p>
+                <a class="btn btn-default" href="https://arg3ni5.github.io/poo-interactivo/">Ir a enlace &raquo;</a>
+            </p>
         </section>
         <section class="col-md-4" aria-labelledby="librariesTitle">
-            <h2 id="librariesTitle">Get more libraries</h2>
-            <p>NuGet is a free Visual Studio extension that makes it easy to add, remove, and update libraries and tools in Visual Studio projects.</p>
-            <p><a class="btn btn-outline-dark" href="https://go.microsoft.com/fwlink/?LinkId=301866">Learn more &raquo;</a></p>
+            <h2 id="librariesTitle">Git: Una Explicación Visual e Interactiva</h2>
+            <p>
+                Imagina que tienes un proyecto personal. Git te permite llevar un registro de cada cambio que haces, como si tomaras una 'instantánea' en el tiempo.
+            </p>
+            <p>
+                <a class="btn btn-default" href="https://arg3ni5.github.io/git-interactivo/">Ir a enlace &raquo;</a>
+            </p>
         </section>
         <section class="col-md-4" aria-labelledby="hostingTitle">
-            <h2 id="hostingTitle">Web Hosting</h2>
-            <p>You can easily find a web hosting company that offers the right mix of features and price for your applications.</p>
-            <p><a class="btn btn-outline-dark" href="https://go.microsoft.com/fwlink/?LinkId=301867">Learn more &raquo;</a></p>
+            <h2 id="hostingTitle">Primer Clase con ASP.NET</h2>
+            <p>
+                Este es el repositio del proyecto de ASP.NET, trabajado en clase.
+            </p>
+            <p>
+                <a class="btn btn-default" href="https://github.com/arg3ni5/II-46-Clase2">Ver repositorio &raquo;</a>
+            </p>
         </section>
     </div>
 </main>
