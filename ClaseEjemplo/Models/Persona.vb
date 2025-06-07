@@ -6,11 +6,14 @@
     Private _telefono As String
     Private _email As String
 
+    ' Constructor por defecto
+
+
     ' Constructor basico
-    Public Sub New(nombre As String, apellido As String, edad As Integer)
+    Public Sub New(nombre As String, apellido As String, email As String)
         _nombre = nombre
         _apellido = apellido
-        _edad = edad
+        _email = email
     End Sub
 
     ' Constructor completo
@@ -21,6 +24,20 @@
         _direccion = direccion
         _telefono = telefono
         _email = email
+    End Sub
+
+    Public Sub New(nombre As String, apellido As String)
+        _nombre = nombre
+        _apellido = apellido
+    End Sub
+
+    Public Sub New()
+        _edad = 0
+        _direccion = String.Empty
+        _telefono = String.Empty
+        _email = String.Empty
+        _nombre = String.Empty
+        _apellido = String.Empty
     End Sub
 
     Public Function NombreCompleto() As String
