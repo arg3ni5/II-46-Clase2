@@ -1,4 +1,6 @@
-﻿Public Class Persona
+﻿Imports System.ComponentModel.DataAnnotations
+
+Public Class Persona
     Private _nombre As String
     Private _apellido As String
     Private _edad As Integer
@@ -54,6 +56,7 @@
         End Set
     End Property
 
+    <Required(ErrorMessage:="El apellido es necesario")>
     Public Property Apellido As String
         Get
             Return _apellido
@@ -90,6 +93,8 @@
         End Set
     End Property
 
+    <Required(ErrorMessage:="El correo es obligatorio")>
+    <EmailAddress(ErrorMessage:="Correo invalido")>
     Public Property Email As String
         Get
             Return _email
