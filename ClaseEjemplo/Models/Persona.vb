@@ -1,6 +1,6 @@
 ﻿Public Class Persona
     Private _nombre As String
-    Private _apellido As String
+    Private _apellidos As String
     Private _edad As Integer
     Private _direccion As String
     Private _telefono As String
@@ -12,14 +12,14 @@
     ' Constructor basico
     Public Sub New(nombre As String, apellido As String, email As String)
         _nombre = nombre
-        _apellido = apellido
+        _apellidos = apellido
         _email = email
     End Sub
 
     ' Constructor completo
     Public Sub New(nombre As String, apellido As String, edad As Integer, direccion As String, telefono As String, email As String)
         _nombre = nombre
-        _apellido = apellido
+        _apellidos = apellido
         _edad = edad
         _direccion = direccion
         _telefono = telefono
@@ -28,7 +28,7 @@
 
     Public Sub New(nombre As String, apellido As String)
         _nombre = nombre
-        _apellido = apellido
+        _apellidos = apellido
     End Sub
 
     Public Sub New()
@@ -37,11 +37,11 @@
         _telefono = String.Empty
         _email = String.Empty
         _nombre = String.Empty
-        _apellido = String.Empty
+        _apellidos = String.Empty
     End Sub
 
     Public Function NombreCompleto() As String
-        Return $"{_nombre} {_apellido}"
+        Return $"{_nombre} {_apellidos}"
     End Function
 
     ' Propiedades para acceder a los campos privados
@@ -54,12 +54,12 @@
         End Set
     End Property
 
-    Public Property Apellido As String
+    Public Property Apellidos As String
         Get
-            Return _apellido
+            Return _apellidos
         End Get
         Set(value As String)
-            _apellido = value
+            _apellidos = value
         End Set
     End Property
 
