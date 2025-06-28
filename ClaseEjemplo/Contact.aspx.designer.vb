@@ -14,15 +14,6 @@ Option Explicit On
 Partial Public Class Contact
 
     '''<summary>
-    '''Control LbMensaje.
-    '''</summary>
-    '''<remarks>
-    '''Campo generado automáticamente.
-    '''Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-    '''</remarks>
-    Protected WithEvents LbMensaje As Global.System.Web.UI.WebControls.Label
-
-    '''<summary>
     '''Control TxtNombre.
     '''</summary>
     '''<remarks>

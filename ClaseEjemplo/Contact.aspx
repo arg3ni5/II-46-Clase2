@@ -11,7 +11,6 @@
 
         <div class="row">
             <div class="col-md-4">
-                <asp:Label ID="LbMensaje" runat="server" Visible="false"></asp:Label>
 
                 <div class="form-group mb-3">
                     <label for="TxtNombre">Nombre</label>
